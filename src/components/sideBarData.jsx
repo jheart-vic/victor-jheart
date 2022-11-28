@@ -21,10 +21,4 @@ export const SideBarData = [
     icon: <GiFilmProjector />,
     cName: "nav-text",
   },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <AiFillContacts />,
-    cName: "nav-text",
-  },
 ]
