@@ -1,5 +1,5 @@
 import { BsFillPersonFill } from "react-icons/bs";
-import { AiFillHome, AiFillContacts  } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 import { GiFilmProjector } from "react-icons/gi";
 
 export const SideBarData = [
