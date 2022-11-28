@@ -6,11 +6,11 @@
 
 .pro {
   border: 1px solid #f3f3;
-  background-image: url(../assets/images/project-two.png);
+  background-image: url(../assets/images/cryptoimage.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.9);
   border-radius: 1.5rem;
   background-color: #060b26;
   padding: 15px;
@@ -49,7 +49,8 @@
   margin-top: 5px;
 }
 
-.eachstack {
+.eachstack,
+.built-with {
   border: 1px solid #999ba1;
   border-radius: 40px;
   padding: 5px;
