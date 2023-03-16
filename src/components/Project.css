@@ -2,42 +2,75 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }
 
 .pro {
-  border: 1px solid #f3f3;
-  background-image: url(../assets/images/cryptoimage.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.9);
   border-radius: 1.5rem;
   background-color: #060b26;
   padding: 15px;
   display: flex;
   color: #fff;
-  margin-top: 1rem;
+  margin-top: 14px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 80%;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: inherit;
+  margin-right: auto;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #999ba1;
+  transform: translate(1px, 14px);
+  border-radius: 40px;
 }
 
 .seeproject {
   background-color: #999ba1;
   border-radius: 40px;
   font-weight: 500;
-  z-index: 10;
   font-size: 18px;
-  border: 1px solid #060b26;
+  border: none;
+  outline: none;
   padding: 10px;
   color: #f5f5f5;
-  backdrop-filter: blur(10px);
+  width: 100%;
+
 }
 
-.seeproject:hover {
-  background-color: #60647e;
+.project-btn button:hover {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.title {
+  width: 100%;
+  font-weight: 500;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  transform: translate(1px, -14px);
+  border-radius: 40px;
+  width: 100%;
+  padding: 5px;
+}
+
+.project-title{
+  color: #060b26;
+  z-index: 1;
+}
+
+.project-btn .seeproject:hover {
+  background-color: #060b26;
   font-size: 1rem;
+  color: #fff;
 }
 
 .stack {
@@ -59,6 +92,5 @@
 }
 
 .built-with {
-  font-size: 17px;
   font-weight: 700;
 }
