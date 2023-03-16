@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchProjects = createAsyncThunk(
   "projects/fetchProjects",
   async () => {
-    const response = await fetch("https://victor-jheart.herokuapp.com/api/v1/projects");
+    const response = await fetch("https://victor-jheart.onrender.com/api/v1/projects");
     const projects = await response.json();
     return projects;
   }

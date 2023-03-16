@@ -26,7 +26,7 @@ function Pop(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button className='popupbtn'><a href={props.project.live_link}>Live link</a></Button>
-        <Button className='popupbtn'><a href={props.project.source_link}>source_link</a></Button>
+        <Button className='popupbtn'><a href={props.project.source_link}>Github_link</a></Button>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>

@@ -8,7 +8,7 @@ import { ThemeContext } from './components/ThemeContext';
 import './App.css';
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const toggleTheme = () => {
    setTheme((mode) => ( mode === "light" ? "dark" : "light"));
  };
@@ -16,7 +16,9 @@ function App() {
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
     <div className="App" id={theme}>
+      < div className='navbar-wrapper'>
       <Navbar />
+      </div>
       <div className="content">
         <Routes>
          <Route path='/' exact element={<Home />}/>
