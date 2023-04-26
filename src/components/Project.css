@@ -1,11 +1,12 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
+  gap: 12px;
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+  height: 100%;
 }
 
 .pro {
@@ -20,21 +21,30 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  height: 300px;
   margin-left: inherit;
   margin-right: auto;
+}
+
+#project-image{
+width: 70%;
+}
+
+#image{
+width: 100%;
+height: 100%;
+border-radius: 0;
 }
 
 .project-btn {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #999ba1;
-  transform: translate(1px, 14px);
   border-radius: 40px;
 }
 
 .seeproject {
-  background-color: #999ba1;
+  background-color: #133086;
   border-radius: 40px;
   font-weight: 500;
   font-size: 18px;
@@ -52,18 +62,15 @@
 }
 
 .title {
-  width: 100%;
   font-weight: 500;
   z-index: 1;
-  backdrop-filter: blur(10px);
-  transform: translate(1px, -14px);
+  color: #fff;
   border-radius: 40px;
-  width: 100%;
   padding: 5px;
 }
 
 .project-title{
-  color: #060b26;
+  font-size: 24px;
   z-index: 1;
 }
 
@@ -83,14 +90,28 @@
 }
 
 .eachstack,
-.built-with {
+.popupbtn {
   border: 1px solid #999ba1;
-  border-radius: 40px;
+  border-radius: 5px;
   padding: 5px;
-  background-color: #60647e;
+  background-color: #133086;
   color: #f5f5f5;
 }
 
-.built-with {
-  font-weight: 700;
+.modal-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto !important;
+ padding: 10px;
+}
+
+.modal-image img {
+  border-radius: 0;
+}
+
+.modal-body{
+  background-color: #060b26;
+  color: white;
 }

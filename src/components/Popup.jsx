@@ -8,26 +8,26 @@ function Pop(props) {
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      className='modal'
     >
-      <Modal.Header closeButton>
+      <Modal.Header className='modal-body'>
         <Modal.Title id="contained-modal-title-vcenter">
          { props.project.title}
         </Modal.Title>
+        <Button onClick={props.onHide}>X</Button>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body className='modal-body'>
         <div className='modal-image'><img src={props.project.image} alt={props.project.title} /></div>
         <p>{props.project.description}</p>
       <div className='stack'>
-        <h2 className='built-with'>Built With:</h2>
-        {props.project.technologies_stack.split(' ').map(item  => (
+        {props.project.technologies_stack.map(item  => (
         <p className='eachstack' key={props.project.id}>{item}</p>
       ))}
       </div>
       </Modal.Body>
-      <Modal.Footer>
+      <Modal.Footer className='modal-body'>
         <Button className='popupbtn'><a href={props.project.live_link}>Live link</a></Button>
         <Button className='popupbtn'><a href={props.project.source_link}>Github_link</a></Button>
-        <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
