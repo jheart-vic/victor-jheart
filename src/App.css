@@ -43,6 +43,37 @@
   color: #fff;
 }
 
+#light .intro-text{
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  };
+
+#light .pro {
+  background-color: #c5c6d4;
+}
+
 #dark {
   background-color: #060b26;
 }
@@ -348,7 +379,7 @@ font-size: 14px;
 
  .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
   margin: 0 auto 0 auto;
   height: 100%;
@@ -358,10 +389,9 @@ font-size: 14px;
 
 .pro {
   border-radius: 10px;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
- 
+
 }
 
 /* Tablet Home */
