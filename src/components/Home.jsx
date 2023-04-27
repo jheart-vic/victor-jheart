@@ -31,9 +31,6 @@ const Home = () => {
           </div> */}
         </div>
         <div className="connections">
-          <div className="connect-header">
-            <h2>Follow me</h2>
-          </div>
           <div className="socials">
             <ul className="me-4 list-unstyled home-ul">
               <li>
