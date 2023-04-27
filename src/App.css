@@ -329,6 +329,12 @@ font-size: 14px;
   line-height: normal;
   letter-spacing: normal;
   box-shadow: none;
+  width: 100%;
+}
+
+.about-text h1 {
+  width: 100%;
+  text-align: center;
 }
 
 .about-icons {
@@ -420,7 +426,6 @@ font-size: 14px;
 }
 
 .socials {
-  margin-right: auto;
   margin-left: 27px;
 }
 
@@ -438,9 +443,11 @@ font-size: 14px;
 .intro-text {
   background-color: #fff;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   line-height: normal;
   margin-right: auto;
+  width: 100%;
+  margin-left: auto;
 }
 
 .connections {
@@ -497,6 +504,11 @@ font-size: 14px;
   line-height: normal;
   letter-spacing: normal;
   box-shadow: none;
+}
+
+.about-text h1 {
+  width: 100%;
+  text-align: center;
 }
 
 .about-icons {

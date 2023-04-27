@@ -55,6 +55,11 @@
   animation: lights 5s 750ms linear infinite;
 }
 
+.home-strong {
+  width: 100%;
+  text-align: center;
+}
+
 .home-link {
   font-size: 12px;
   font-weight: 700;
