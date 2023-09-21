@@ -5,22 +5,22 @@
  const projectData = [
   {
     id: 1,
-    title: 'Movie-List App',
-    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
-    description:'Movie display is an App that gets a list of movies from the server and displays it for the user to select their choice, This app helps you with movies to watch if you are looking for one',
-    technologies_stack: ['React', 'Bootstrap ', 'CSS'],
-    live_link: 'https://jheart-vic.github.io/movie-display/',
-    source_link: 'https://github.com/jheart-vic/movie-display'
+    name: 'Amazon App',
+    image: 'https://user-images.githubusercontent.com/17878339/230745262-681f4ad3-e34c-4a06-8ef3-d50218d93f94.gif',
+    technologies_stack: ['React', 'Redux', 'TailwindCss'],
+    live_link: 'https://amazon0clone.netlify.app/',
+    source_link: 'https://github.com/jheart-vic/amazon-clone',
   },
-  {
-    id: 2,
-    title: 'Space-T Hub',
-    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669908880/samples/portfolio/Screenshot_114_arfeg8.png',
-    description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission, It fetches data from an API and then sends it to the browser for users to view",
-    technologies_stack: ['Redux', 'React', 'Bootstrap'],
-    live_link: 'https://maenkhraisha.github.io/space-travel/',
-    source_link: 'https://github.com/jheart-vic/space-travel'
-  },
+
+  // {
+  //   id: 2,
+  //   title: 'Space-T Hub',
+  //   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669908880/samples/portfolio/Screenshot_114_arfeg8.png',
+  //   description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission, It fetches data from an API and then sends it to the browser for users to view",
+  //   technologies_stack: ['Redux', 'React', 'Bootstrap'],
+  //   live_link: 'https://maenkhraisha.github.io/space-travel/',
+  //   source_link: 'https://github.com/jheart-vic/space-travel'
+  // },
   {
     id: 3,
     title: 'Booking App',
@@ -57,14 +57,15 @@
     live_link: 'https://jheart-vic.github.io/capstone/',
     source_link: 'https://github.com/jheart-vic'
   },
-  // {
-  //   id: 7,
-  //   name: 'BookStore App',
-  //   image: spaceHub,
-  //   technologies: ['React', 'Redux', 'API'],
-  //   github: 'https://github.com/PromzzyKoncepts/BookStore-React',
-  //   demo: 'https://bookstore-redux.netlify.app',
-  // },
+  {
+    id: 7,
+    title: 'Movie-List App',
+    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
+    description:'Movie display is an App that gets a list of movies from the server and displays it for the user to select their choice, This app helps you with movies to watch if you are looking for one',
+    technologies_stack: ['React', 'Bootstrap ', 'CSS'],
+    live_link: 'https://jheart-vic.github.io/movie-display/',
+    source_link: 'https://github.com/jheart-vic/movie-display'
+  },
   // {
   //   id: 8,
   //   name: 'PranMovies',
