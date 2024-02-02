@@ -24,6 +24,7 @@
   height: 100vh;
  margin-left:250px;
  padding: 0 20px;
+ /* overflow: auto; */
 }
 
 .popupbtn a{

@@ -6,21 +6,31 @@
   {
     id: 1,
     name: 'Amazon App',
-    image: 'https://user-images.githubusercontent.com/17878339/230745262-681f4ad3-e34c-4a06-8ef3-d50218d93f94.gif',
+    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1706862878/Screenshot_2_qmyegm.png',
     technologies_stack: ['React', 'Redux', 'TailwindCss'],
     live_link: 'https://amazon0clone.netlify.app/',
     source_link: 'https://github.com/jheart-vic/amazon-clone',
   },
 
-  // {
-  //   id: 2,
-  //   title: 'Space-T Hub',
-  //   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669908880/samples/portfolio/Screenshot_114_arfeg8.png',
-  //   description: "This is an app that displays a list of Rockets and Missions, allows users to reserve and cancel a Rocket, and joins and leaves a Mission, It fetches data from an API and then sends it to the browser for users to view",
-  //   technologies_stack: ['Redux', 'React', 'Bootstrap'],
-  //   live_link: 'https://maenkhraisha.github.io/space-travel/',
-  //   source_link: 'https://github.com/jheart-vic/space-travel'
-  // },
+  {
+    id: 6,
+    title: 'Fitness Hub',
+    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1706870907/Screenshot_3_j4qwdq.png',
+    description: 'This is an App built for keeping you fit, Helps you with your workout routine, and also help you with your diet, it is built with React, Vite, and Tailwindcss, it is a PWA so you can install it on your device and use it offline as well.',
+    technologies_stack: ['React', 'Vite', 'Tailwindcss'],
+    live_link: 'https://gym-ruddy-three.vercel.app/',
+    source_link: 'https://github.com/jheart-vic/gymite'
+  },
+
+  {
+    id: 2,
+    title: 'Airbnb App',
+    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1699090683/Screenshot_1_ihjgt5.png',
+    description: "This is an app where user can see a building and book it for vaccation and also see the location of the building on the map, built with React, Nodejs and Tailwindcss",
+    technologies_stack: ['Nodejs', 'React', 'Tailwindcss'],
+    live_link: 'https://booking-z0fr.onrender.com/',
+    source_link: 'https://github.com/jheart-vic/bookings'
+  },
   {
     id: 3,
     title: 'Booking App',
@@ -30,15 +40,15 @@
     live_link: 'https://zingy-moonbeam-4ae8a7.netlify.app/',
     source_link: 'https://github.com/jheart-vic/teacher_appointment_frontend/'
   },
-  {
-    id: 4,
-    title: 'BudgetHub App',
-    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_112_gsgmmt.png',
-    description: 'This is a full-stack App that allows users to sign up and have their budget and expenses saved into a database, it uses Postgresql on the server side and ruby on the client side, and users can delete their budgets',
-    technologies_stack: ['Html', 'Bootstrap', 'Ruby'],
-    live_link: 'https://budgetory.herokuapp.com/',
-    source_link: 'https://github.com/jheart-vic/Budget-App'
-  },
+  // {
+  //   id: 4,
+  //   title: 'BudgetHub App',
+  //   image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_112_gsgmmt.png',
+  //   description: 'This is a full-stack App that allows users to sign up and have their budget and expenses saved into a database, it uses Postgresql on the server side and ruby on the client side, and users can delete their budgets',
+  //   technologies_stack: ['Html', 'Bootstrap', 'Ruby'],
+  //   live_link: 'https://budgetory.herokuapp.com/',
+  //   source_link: 'https://github.com/jheart-vic/Budget-App'
+  // },
   {
     id: 5,
     title: 'Crypto-Info App',
@@ -49,15 +59,6 @@
     source_link: 'https://github.com/jheart-vic/cryptoapp'
   },
   {
-    id: 6,
-    title: 'Healthy-Diet App',
-    image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669562883/samples/portfolio/Screenshot_21_egvvmu.png',
-    description: 'This is a balanced diet site that helps you know how to eat right and what to eat at the right time, it is a simple App built with JavaScript, Html, and CSS',
-    technologies_stack: ['Html', 'CSS', 'JavaScript'],
-    live_link: 'https://jheart-vic.github.io/capstone/',
-    source_link: 'https://github.com/jheart-vic'
-  },
-  {
     id: 7,
     title: 'Movie-List App',
     image: 'https://res.cloudinary.com/dtokddgbm/image/upload/v1669583650/samples/portfolio/Screenshot_113_mqjrvk.png',
@@ -66,22 +67,6 @@
     live_link: 'https://jheart-vic.github.io/movie-display/',
     source_link: 'https://github.com/jheart-vic/movie-display'
   },
-  // {
-  //   id: 8,
-  //   name: 'PranMovies',
-  //   image: pranMovies,
-  //   technologies: ['JavaScript', 'CSS3', 'API'],
-  //   github: 'https://github.com/PromzzyKoncepts/PranMovies',
-  //   demo: 'https://promzzykoncepts.github.io/PranMovies/',
-  // },
-  // {
-  //   id: 9,
-  //   name: 'Maths Calculator',
-  //   image: spaceHub,
-  //   technologies: ['React', 'Javascript', 'CSS'],
-  //   github: 'https://github.com/PromzzyKoncepts/Math-Magician',
-  //   demo: 'https://mathmag.netlify.app',
-  // },
 ];
 
 export default projectData;
